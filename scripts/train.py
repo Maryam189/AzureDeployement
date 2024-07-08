@@ -6,7 +6,6 @@ import torch
 from transformers import BartTokenizer, BartForConditionalGeneration
 from datasets import load_dataset
 import re
-from google.colab import drive
 from rouge_score import rouge_scorer
 
 # Load dataset
