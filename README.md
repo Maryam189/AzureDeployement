@@ -12,8 +12,14 @@ This project involves deploying a machine learning model that classifies whether
 ### Step 2: Initialize Azure ML Workspace
 - **Workspace Setup**: Created an Azure Machine Learning Workspace from the Azure portal. This workspace serves as the central place for managing all aspects of the model training and deployment lifecycle.
 
+![ml workspace 1](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/92673e9b-703d-4504-b9cb-12062ab5c70b)
+
+
 ### Step 3: Launch Azure ML Studio
 - **Accessing ML Studio**: Opened Azure ML Studio to leverage its integrated tools and interfaces for machine learning project management.
+
+![launch ML Studio 3](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/68d720eb-371b-4de0-b031-e69f5f9b8be6)
+
 
 ### Step 4: Repository Management
 - **Clone GitHub Repository**: Cloned a GitHub repository directly within the Azure ML workspace environment. This repository contains:
@@ -28,6 +34,9 @@ This project involves deploying a machine learning model that classifies whether
 
 ### Step 6: Job Creation and Model Registration
 - **Job Monitoring**: Created and monitored a machine learning job that handles the training operations managed by Azure ML.
+  
+![image](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/c12b3aa4-e2ab-4837-b234-b4e6d3215ec8)
+
 - **Model Registration**: Registered the trained model within Azure ML to manage different versions and facilitate deployment.
 
 ### Step 7: Resource Management
@@ -44,6 +53,9 @@ During the execution of this project, I encountered several significant obstacle
 ### Step 8: Model Deployment
 - **Deployment Preparation**: Prepared for deploying the registered model by ensuring all resources were optimally used and within budget constraints.
 - **Deployment Strategy**: Outlined the intended deployment strategy, taking into consideration the Azure infrastructure and the operational demands.
+
+![Deployment Succeeded](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/d4a07d01-ae2c-499d-af80-95b17629c8d1)
+
 
 ## Conclusion
 This documentation outlines the comprehensive process undertaken to deploy a machine learning model on Azure, using MLflow for lifecycle management. Each step from setting up the infrastructure to training, registering, and planning for deployment has been meticulously executed to ensure a successful deployment in a cost-effective and efficient manner. The challenges encountered were significant, yet they provided valuable learning opportunities and demonstrated my ability to navigate complex problems.
