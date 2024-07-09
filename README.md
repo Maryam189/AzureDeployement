@@ -56,9 +56,26 @@ During the execution of this project, I encountered several significant obstacle
 
 ![Deployment Succeeded](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/d4a07d01-ae2c-499d-af80-95b17629c8d1)
 
+### Step 9: Model Monitoring and Testing
+- **Monitoring Options**: Implemented monitoring tools within Azure ML to track the performance and health of the deployed model. This includes monitoring the usage metrics and system health to ensure the model performs as expected in a production environment.
+- **Testing the Deployment**: The deployed model was thoroughly tested using:
+  - **Test Input File**: Utilized `test.txt` to ensure the model predicts the expected output.
+
+#### Input from test.txt:
+
+![image](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/7dec04bd-1a63-4e2c-ae90-c6ee821938ea)
+
+#### Expected Output same as test.txt:
+
+![image](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/65fd6704-c618-4fab-bfad-2880fdd9e897)
+
+
+  - **Endpoint Testing in Visual Studio**: Conducted endpoint testing using Visual Studio, where the model's endpoint was integrated and tested to ensure correct response and functionality.
+    
+![image](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/fb14bbe2-a479-4e0f-b8aa-8fee7e32545d)
 
 ## Conclusion
-This documentation outlines the comprehensive process undertaken to deploy a machine learning model on Azure, using MLflow for lifecycle management. Each step from setting up the infrastructure to training, registering, and planning for deployment has been meticulously executed to ensure a successful deployment in a cost-effective and efficient manner. The challenges encountered were significant, yet they provided valuable learning opportunities and demonstrated my ability to navigate complex problems.
+This documentation outlines the comprehensive process undertaken to deploy a machine learning model on Azure, using MLflow for lifecycle management. Each step from setting up the infrastructure to training, registering, planning for deployment, and monitoring post-deployment activities has been meticulously executed to ensure a successful deployment in a cost-effective and efficient manner. The challenges encountered were significant, yet they provided valuable learning opportunities and demonstrated my ability to navigate complex problems.
 
 ## Future Work
 - **Model Optimization**: Continuous monitoring and tuning of the model to improve accuracy.
