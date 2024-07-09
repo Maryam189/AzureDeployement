@@ -30,7 +30,12 @@ This project involves deploying a machine learning model that classifies whether
 
 ### Step 5: Model Training and Evaluation
 - **Notebook Execution**: Executed the `Notebook.ipynb` in Azure ML Studio to train the initial model and perform exploratory data analysis.
-- **Script Execution**: Ran the `train.py` script to structure the training process into reusable functions, facilitating automation and reproducibility.
+  
+  ![image](https://github.com/Maryam189/AzureMLDeployment/assets/76420523/35790fe1-e093-4435-baf7-765888897220)
+
+- **Script Execution**: Ran the `train.py` script in terminal of MLstudio to structure the training process into reusable functions, facilitating automation and reproducibility.
+#### Command used to run:
+`python train.py --training_data diabetes.csv`
 
 ### Step 6: Job Creation and Model Registration
 - **Job Monitoring**: Created and monitored a machine learning job that handles the training operations managed by Azure ML.
