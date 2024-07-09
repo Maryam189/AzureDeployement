@@ -34,17 +34,21 @@ This project involves deploying a machine learning model that classifies whether
 - **Cost Considerations**: Highlighted the importance of managing compute resources to control costs. Detailed that the compute cost was approximately $0.9 per hour.
 - **Quota Management**: Discussed the significance of deleting unnecessary compute resources to prevent quota exceedance and manage budget effectively. Emphasized stopping or deleting the compute cluster if not in use to avoid unnecessary charges.
 
+### Challenges Faced
+During the execution of this project, I encountered several significant obstacles which tested my resolve and resourcefulness:
+
+- **Account Creation Issues**: Initially, setting up an account on the Azure portal proved challenging. My first attempt using a Nayapay prepaid card was unsuccessful as Azure does not accept prepaid cards. Subsequent attempts with a debit card linked to my bank account also failed because international transactions were disabled. It was not until I used a third card, belonging to a friend, that I was able to successfully create my account and proceed.
+
+- **Resource Management and Quota Limitations**: My first attempt at deploying the model failed due to fully utilized quota resources. Despite the setback, I invested time in a comprehensive two-hour Azure ML model deployment course offered by a Microsoft student ambassador. This education enabled me to understand that I needed to delete compute instances before deployment. Armed with this new knowledge, I was able to successfully deploy the model using Azure MLflow.
+
 ### Step 8: Model Deployment
 - **Deployment Preparation**: Prepared for deploying the registered model by ensuring all resources were optimally used and within budget constraints.
 - **Deployment Strategy**: Outlined the intended deployment strategy, taking into consideration the Azure infrastructure and the operational demands.
 
 ## Conclusion
-This documentation outlines the comprehensive process undertaken to deploy a machine learning model on Azure, using MLflow for lifecycle management. Each step from setting up the infrastructure to training, registering, and planning for deployment has been meticulously executed to ensure a successful deployment in a cost-effective and efficient manner.
+This documentation outlines the comprehensive process undertaken to deploy a machine learning model on Azure, using MLflow for lifecycle management. Each step from setting up the infrastructure to training, registering, and planning for deployment has been meticulously executed to ensure a successful deployment in a cost-effective and efficient manner. The challenges encountered were significant, yet they provided valuable learning opportunities and demonstrated my ability to navigate complex problems.
 
 ## Future Work
 - **Model Optimization**: Continuous monitoring and tuning of the model to improve accuracy.
 - **Resource Optimization**: Further refinement of resource usage to optimize costs while maintaining performance.
 
----
-
-For additional details or specific operational queries, please refer to the Azure ML and MLflow documentation or contact the project supervisor.
